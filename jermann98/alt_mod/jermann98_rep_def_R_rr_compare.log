@@ -1,0 +1,31 @@
+Starting Dynare (version 5.1).
+Calling Dynare with arguments: noclearall
+Starting preprocessing of the model file ...
+Found 17 equation(s).
+Evaluating expressions...done
+Computing static model derivatives (order 1).
+Computing dynamic model derivatives (order 1).
+Processing outputs ...
+done
+Preprocessing completed.
+
+
+STEADY-STATE RESULTS:
+
+k         		 2.07474
+c         		 0.625342
+i         		 -1.4364
+y         		 0.745107
+N         		 0
+C_gr      		 0.005
+Y_gr      		 0.005
+I_gr      		 0.005
+mu        		 219604
+cost      		 0.0300125
+cost_der  		 1
+epsilon_a 		 0
+z         		 0
+w         		 0.29882
+d         		 -0.65274
+R         		 0.0683351
+M         		 -0.0683351

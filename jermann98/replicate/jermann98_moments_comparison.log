@@ -1,0 +1,44 @@
+Starting Dynare (version 5.1).
+Calling Dynare with arguments: noclearall
+Starting preprocessing of the model file ...
+Found 13 equation(s).
+Evaluating expressions...done
+Computing static model derivatives (order 1).
+Computing dynamic model derivatives (order 1).
+Processing outputs ...
+done
+Preprocessing completed.
+
+[Warning: Some of the parameters have no value (beta, sigma_a_bar, cost_b, cost_c,
+expi_expk) when using steady. If these parameters are not initialized in a steadystate
+file or a steady_state_model-block, Dynare may not be able to solve the model. Note
+that simul, perfect_foresight_setup, and perfect_foresight_solver do not automatically
+call the steady state file.] 
+
+STEADY-STATE RESULTS:
+
+k        		 3.49512
+c        		 0.927744
+i        		 -0.0160235
+y        		 1.25644
+C_gr     		 0.005
+Y_gr     		 0.005
+I_gr     		 0.005
+mu       		 6.1589
+cost     		 0.0300125
+cost_der 		 1
+z        		 0
+R        		 0.013477
+M        		 -0.013477
+[Warning: Some of the parameters have no value (sigma_a_bar) when using stoch_simul. If
+these parameters are not initialized in a steadystate file or a
+steady_state_model-block, Dynare may not be able to solve the model. Note that simul,
+perfect_foresight_setup, and perfect_foresight_solver do not automatically call the
+steady state file.] 
+[Warning: Some of the parameters have no value (sigma_a_bar) when using stoch_simul. If
+these parameters are not initialized in a steadystate file or a
+steady_state_model-block, Dynare may not be able to solve the model. Note that simul,
+perfect_foresight_setup, and perfect_foresight_solver do not automatically call the
+steady state file.] 
+Total computing time : 0h00m01s
+Note: warning(s) encountered in MATLAB/Octave code

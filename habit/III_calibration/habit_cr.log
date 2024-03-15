@@ -1,0 +1,37 @@
+Starting Dynare (version 5.1).
+Calling Dynare with arguments: noclearall
+Starting preprocessing of the model file ...
+Found 3 equation(s).
+Evaluating expressions...done
+Computing static model derivatives (order 1).
+Computing dynamic model derivatives (order 2).
+Processing outputs ...
+done
+Preprocessing completed.
+
+
+STEADY-STATE RESULTS:
+
+c 		 0
+k 		 0
+z 		 0
+
+EIGENVALUES:
+         Modulus             Real        Imaginary
+
+          0.9999           0.9999                0
+          0.9999           0.9999                0
+          0.9999           0.9999                0
+               1                1                0
+
+
+There are 1 eigenvalue(s) larger than 1 in modulus 
+for 1 forward-looking variable(s)
+
+The rank condition is verified.
+
+rp_dynare_cr =
+       7.8006
+log_c_std_dynare_cr =
+    0.0056404
+Total computing time : 0h00m00s

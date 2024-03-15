@@ -1,0 +1,75 @@
+
+var c           
+    k           
+    z          
+ ;
+
+varexo e        
+        ;
+
+
+parameters   
+    h
+beta
+delta
+alpha
+sigma
+rho
+K_aminus1
+CK
+omega
+    ;
+
+%----------------------------------------------------------------
+% 2. Calibration
+%----------------------------------------------------------------
+ load('Y')
+ Y=Y_1;
+h=Y(1);
+beta=Y(2);
+delta=Y(3);
+alpha=Y(4);
+sigma=Y(5);
+rho=Y(6);
+omega=Y(7);
+K_aminus1=(1/beta-1+delta)/alpha;
+CK=K_aminus1-delta;
+
+%----------------------------------------------------------------
+% 3. Model
+%----------------------------------------------------------------
+
+model(linear);
+0=-sigma/(1-h)*c(+1)+sigma*(1+h)/(1-h)*c+ alpha*beta*K_aminus1*(alpha-1)*k-sigma*h/(1-h)*c(-1)+beta*alpha*K_aminus1*rho*z;
+0=-CK*c -k+(1-delta+alpha*K_aminus1)*k(-1)+K_aminus1*z;
+z=rho*z(-1)+e;
+end;
+
+%----------------------------------------------------------------
+% 4. Computation
+%----------------------------------------------------------------
+
+steady_state_model;
+ c=0;
+k=0;
+z=0;
+end;
+
+
+
+shocks;
+var e = omega^2; 
+end;
+
+steady;
+check;
+stoch_simul(order = 1,irf=0,noprint); 
+
+BETA_ZS_dynare=oo_.dr.ghu(oo_.dr.inv_order_var,:);BETA_ZS_dynare=BETA_ZS_dynare(1:2,:);
+ALPHA_ZS_dynare=oo_.dr.ghx(oo_.dr.inv_order_var,oo_.dr.inv_order_var);ALPHA_ZS_dynare=ALPHA_ZS_dynare(1:2,1:2);
+
+rp_dynare=4*100*sigma/(1-h)*BETA_ZS_dynare(1)*alpha*K_aminus1*beta*(omega)^2
+AA=[ALPHA_ZS_dynare(1,1)-1  ALPHA_ZS_dynare(1,2) BETA_ZS_dynare(1)];
+BB=[ALPHA_ZS_dynare BETA_ZS_dynare;0 0 rho ];
+DD=[0;0;1];
+log_c_std_dynare=(kron(AA,AA)*((eye(9,9)-kron(BB,BB))\kron(DD,DD))*omega^2)^(1/2)

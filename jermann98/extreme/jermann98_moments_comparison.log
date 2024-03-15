@@ -1,0 +1,84 @@
+Starting Dynare (version 5.1).
+Calling Dynare with arguments: noclearall
+Starting preprocessing of the model file ...
+Found 13 equation(s).
+Evaluating expressions...done
+Computing static model derivatives (order 1).
+Computing dynamic model derivatives (order 1).
+Processing outputs ...
+done
+Preprocessing completed.
+
+[Warning: Some of the parameters have no value (beta, sigma_a_bar, cost_b, cost_c,
+expi_expk) when using steady. If these parameters are not initialized in a steadystate
+file or a steady_state_model-block, Dynare may not be able to solve the model. Note
+that simul, perfect_foresight_setup, and perfect_foresight_solver do not automatically
+call the steady state file.] 
+
+STEADY-STATE RESULTS:
+
+k        		 2.07474
+c        		 0.625342
+i        		 -1.4364
+y        		 0.745107
+C_gr     		 0.005
+Y_gr     		 0.005
+I_gr     		 0.005
+mu       		 219604
+cost     		 0.0300125
+cost_der 		 1
+z        		 0
+R        		 0.0683351
+M        		 -0.0683351
+[Warning: Some of the parameters have no value (sigma_a_bar) when using stoch_simul. If
+these parameters are not initialized in a steadystate file or a
+steady_state_model-block, Dynare may not be able to solve the model. Note that simul,
+perfect_foresight_setup, and perfect_foresight_solver do not automatically call the
+steady state file.] 
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND
+=  5.608443e-30.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('svds>AfunS', 'C:\Program Files\MATLAB\R2021b\toolbox\matlab\sparfun\svds.m', 822)" style="font-weight:bold">svds>AfunS</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2021b\toolbox\matlab\sparfun\svds.m',822,0)">line 822</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('svds>@(X,transflag)AfunS(R1,X,transflag)', 'C:\Program Files\MATLAB\R2021b\toolbox\matlab\sparfun\svds.m', 347)" style="font-weight:bold">svds>@(X,transflag)AfunS(R1,X,transflag)</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2021b\toolbox\matlab\sparfun\svds.m',347,0)">line 347</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.internal.math.LanczosBD', 'C:\Program Files\MATLAB\R2021b\toolbox\matlab\sparfun\+matlab\+internal\+math\LanczosBD.m', 15)" style="font-weight:bold">matlab.internal.math.LanczosBD</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2021b\toolbox\matlab\sparfun\+matlab\+internal\+math\LanczosBD.m',15,0)">line 15</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('svds', 'C:\Program Files\MATLAB\R2021b\toolbox\matlab\sparfun\svds.m', 353)" style="font-weight:bold">svds</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2021b\toolbox\matlab\sparfun\svds.m',353,0)">line 353</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dsge_backward_errors_condition_full', 'C:\Users\meyergoh\PowerFolders\Forschung-Frankfurt\backward_errors_cond\backward_errors_cond_0_4\algorithm\dsge_backward_errors_condition_full.m', 165)" style="font-weight:bold">dsge_backward_errors_condition_full</a> (<a href="matlab: opentoline('C:\Users\meyergoh\PowerFolders\Forschung-Frankfurt\backward_errors_cond\backward_errors_cond_0_4\algorithm\dsge_backward_errors_condition_full.m',165,0)">line 165</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('jermann98_moments_comparison.driver', 'C:\Users\meyergoh\PowerFolders\Forschung-Frankfurt\backward_errors_cond\backward_errors_cond_0_4\jermann98\extreme\+jermann98_moments_comparison\driver.m', 284)" style="font-weight:bold">jermann98_moments_comparison.driver</a> (<a href="matlab: opentoline('C:\Users\meyergoh\PowerFolders\Forschung-Frankfurt\backward_errors_cond\backward_errors_cond_0_4\jermann98\extreme\+jermann98_moments_comparison\driver.m',284,0)">line 284</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dynare', 'C:\dynare\5.1\matlab\dynare.m', 281)" style="font-weight:bold">dynare</a> (<a href="matlab: opentoline('C:\dynare\5.1\matlab\dynare.m',281,0)">line 281</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('create_results', 'C:\Users\meyergoh\PowerFolders\Forschung-Frankfurt\backward_errors_cond\backward_errors_cond_0_4\jermann98\extreme\create_results.m', 11)" style="font-weight:bold">create_results</a> (<a href="matlab: opentoline('C:\Users\meyergoh\PowerFolders\Forschung-Frankfurt\backward_errors_cond\backward_errors_cond_0_4\jermann98\extreme\create_results.m',11,0)">line 11</a>)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND
+=  5.608194e-30.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('svds>AfunS', 'C:\Program Files\MATLAB\R2021b\toolbox\matlab\sparfun\svds.m', 822)" style="font-weight:bold">svds>AfunS</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2021b\toolbox\matlab\sparfun\svds.m',822,0)">line 822</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('svds>@(X,transflag)AfunS(R1,X,transflag)', 'C:\Program Files\MATLAB\R2021b\toolbox\matlab\sparfun\svds.m', 347)" style="font-weight:bold">svds>@(X,transflag)AfunS(R1,X,transflag)</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2021b\toolbox\matlab\sparfun\svds.m',347,0)">line 347</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.internal.math.LanczosBD', 'C:\Program Files\MATLAB\R2021b\toolbox\matlab\sparfun\+matlab\+internal\+math\LanczosBD.m', 15)" style="font-weight:bold">matlab.internal.math.LanczosBD</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2021b\toolbox\matlab\sparfun\+matlab\+internal\+math\LanczosBD.m',15,0)">line 15</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('svds', 'C:\Program Files\MATLAB\R2021b\toolbox\matlab\sparfun\svds.m', 353)" style="font-weight:bold">svds</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2021b\toolbox\matlab\sparfun\svds.m',353,0)">line 353</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dsge_backward_errors_condition_full', 'C:\Users\meyergoh\PowerFolders\Forschung-Frankfurt\backward_errors_cond\backward_errors_cond_0_4\algorithm\dsge_backward_errors_condition_full.m', 177)" style="font-weight:bold">dsge_backward_errors_condition_full</a> (<a href="matlab: opentoline('C:\Users\meyergoh\PowerFolders\Forschung-Frankfurt\backward_errors_cond\backward_errors_cond_0_4\algorithm\dsge_backward_errors_condition_full.m',177,0)">line 177</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('jermann98_moments_comparison.driver', 'C:\Users\meyergoh\PowerFolders\Forschung-Frankfurt\backward_errors_cond\backward_errors_cond_0_4\jermann98\extreme\+jermann98_moments_comparison\driver.m', 284)" style="font-weight:bold">jermann98_moments_comparison.driver</a> (<a href="matlab: opentoline('C:\Users\meyergoh\PowerFolders\Forschung-Frankfurt\backward_errors_cond\backward_errors_cond_0_4\jermann98\extreme\+jermann98_moments_comparison\driver.m',284,0)">line 284</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dynare', 'C:\dynare\5.1\matlab\dynare.m', 281)" style="font-weight:bold">dynare</a> (<a href="matlab: opentoline('C:\dynare\5.1\matlab\dynare.m',281,0)">line 281</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('create_results', 'C:\Users\meyergoh\PowerFolders\Forschung-Frankfurt\backward_errors_cond\backward_errors_cond_0_4\jermann98\extreme\create_results.m', 11)" style="font-weight:bold">create_results</a> (<a href="matlab: opentoline('C:\Users\meyergoh\PowerFolders\Forschung-Frankfurt\backward_errors_cond\backward_errors_cond_0_4\jermann98\extreme\create_results.m',11,0)">line 11</a>)] 
+[Warning: Some of the parameters have no value (sigma_a_bar) when using stoch_simul. If
+these parameters are not initialized in a steadystate file or a
+steady_state_model-block, Dynare may not be able to solve the model. Note that simul,
+perfect_foresight_setup, and perfect_foresight_solver do not automatically call the
+steady state file.] 
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND
+=  5.589040e-30.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('svds>AfunS', 'C:\Program Files\MATLAB\R2021b\toolbox\matlab\sparfun\svds.m', 822)" style="font-weight:bold">svds>AfunS</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2021b\toolbox\matlab\sparfun\svds.m',822,0)">line 822</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('svds>@(X,transflag)AfunS(R1,X,transflag)', 'C:\Program Files\MATLAB\R2021b\toolbox\matlab\sparfun\svds.m', 347)" style="font-weight:bold">svds>@(X,transflag)AfunS(R1,X,transflag)</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2021b\toolbox\matlab\sparfun\svds.m',347,0)">line 347</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.internal.math.LanczosBD', 'C:\Program Files\MATLAB\R2021b\toolbox\matlab\sparfun\+matlab\+internal\+math\LanczosBD.m', 15)" style="font-weight:bold">matlab.internal.math.LanczosBD</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2021b\toolbox\matlab\sparfun\+matlab\+internal\+math\LanczosBD.m',15,0)">line 15</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('svds', 'C:\Program Files\MATLAB\R2021b\toolbox\matlab\sparfun\svds.m', 353)" style="font-weight:bold">svds</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2021b\toolbox\matlab\sparfun\svds.m',353,0)">line 353</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dsge_backward_errors_condition_full', 'C:\Users\meyergoh\PowerFolders\Forschung-Frankfurt\backward_errors_cond\backward_errors_cond_0_4\algorithm\dsge_backward_errors_condition_full.m', 165)" style="font-weight:bold">dsge_backward_errors_condition_full</a> (<a href="matlab: opentoline('C:\Users\meyergoh\PowerFolders\Forschung-Frankfurt\backward_errors_cond\backward_errors_cond_0_4\algorithm\dsge_backward_errors_condition_full.m',165,0)">line 165</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('jermann98_moments_comparison.driver', 'C:\Users\meyergoh\PowerFolders\Forschung-Frankfurt\backward_errors_cond\backward_errors_cond_0_4\jermann98\extreme\+jermann98_moments_comparison\driver.m', 308)" style="font-weight:bold">jermann98_moments_comparison.driver</a> (<a href="matlab: opentoline('C:\Users\meyergoh\PowerFolders\Forschung-Frankfurt\backward_errors_cond\backward_errors_cond_0_4\jermann98\extreme\+jermann98_moments_comparison\driver.m',308,0)">line 308</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dynare', 'C:\dynare\5.1\matlab\dynare.m', 281)" style="font-weight:bold">dynare</a> (<a href="matlab: opentoline('C:\dynare\5.1\matlab\dynare.m',281,0)">line 281</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('create_results', 'C:\Users\meyergoh\PowerFolders\Forschung-Frankfurt\backward_errors_cond\backward_errors_cond_0_4\jermann98\extreme\create_results.m', 11)" style="font-weight:bold">create_results</a> (<a href="matlab: opentoline('C:\Users\meyergoh\PowerFolders\Forschung-Frankfurt\backward_errors_cond\backward_errors_cond_0_4\jermann98\extreme\create_results.m',11,0)">line 11</a>)] 
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND
+=  5.588791e-30.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('svds>AfunS', 'C:\Program Files\MATLAB\R2021b\toolbox\matlab\sparfun\svds.m', 822)" style="font-weight:bold">svds>AfunS</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2021b\toolbox\matlab\sparfun\svds.m',822,0)">line 822</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('svds>@(X,transflag)AfunS(R1,X,transflag)', 'C:\Program Files\MATLAB\R2021b\toolbox\matlab\sparfun\svds.m', 347)" style="font-weight:bold">svds>@(X,transflag)AfunS(R1,X,transflag)</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2021b\toolbox\matlab\sparfun\svds.m',347,0)">line 347</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.internal.math.LanczosBD', 'C:\Program Files\MATLAB\R2021b\toolbox\matlab\sparfun\+matlab\+internal\+math\LanczosBD.m', 15)" style="font-weight:bold">matlab.internal.math.LanczosBD</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2021b\toolbox\matlab\sparfun\+matlab\+internal\+math\LanczosBD.m',15,0)">line 15</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('svds', 'C:\Program Files\MATLAB\R2021b\toolbox\matlab\sparfun\svds.m', 353)" style="font-weight:bold">svds</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2021b\toolbox\matlab\sparfun\svds.m',353,0)">line 353</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dsge_backward_errors_condition_full', 'C:\Users\meyergoh\PowerFolders\Forschung-Frankfurt\backward_errors_cond\backward_errors_cond_0_4\algorithm\dsge_backward_errors_condition_full.m', 177)" style="font-weight:bold">dsge_backward_errors_condition_full</a> (<a href="matlab: opentoline('C:\Users\meyergoh\PowerFolders\Forschung-Frankfurt\backward_errors_cond\backward_errors_cond_0_4\algorithm\dsge_backward_errors_condition_full.m',177,0)">line 177</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('jermann98_moments_comparison.driver', 'C:\Users\meyergoh\PowerFolders\Forschung-Frankfurt\backward_errors_cond\backward_errors_cond_0_4\jermann98\extreme\+jermann98_moments_comparison\driver.m', 308)" style="font-weight:bold">jermann98_moments_comparison.driver</a> (<a href="matlab: opentoline('C:\Users\meyergoh\PowerFolders\Forschung-Frankfurt\backward_errors_cond\backward_errors_cond_0_4\jermann98\extreme\+jermann98_moments_comparison\driver.m',308,0)">line 308</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dynare', 'C:\dynare\5.1\matlab\dynare.m', 281)" style="font-weight:bold">dynare</a> (<a href="matlab: opentoline('C:\dynare\5.1\matlab\dynare.m',281,0)">line 281</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('create_results', 'C:\Users\meyergoh\PowerFolders\Forschung-Frankfurt\backward_errors_cond\backward_errors_cond_0_4\jermann98\extreme\create_results.m', 11)" style="font-weight:bold">create_results</a> (<a href="matlab: opentoline('C:\Users\meyergoh\PowerFolders\Forschung-Frankfurt\backward_errors_cond\backward_errors_cond_0_4\jermann98\extreme\create_results.m',11,0)">line 11</a>)] 
+Total computing time : 0h00m01s
+Note: warning(s) encountered in MATLAB/Octave code
